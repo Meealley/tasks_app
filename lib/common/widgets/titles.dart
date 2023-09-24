@@ -16,7 +16,7 @@ class BottomTitles extends StatelessWidget {
     return SizedBox(
       width: AppConst.kWidth,
       child: Padding(
-        padding: EdgeInsets.all(7),
+        padding: const EdgeInsets.all(7),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -25,7 +25,7 @@ class BottomTitles extends StatelessWidget {
                 return Container(
                   height: 80,
                   width: 5,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(
                       Radius.circular(10),
                     ),
@@ -36,9 +36,9 @@ class BottomTitles extends StatelessWidget {
                 );
               },
             ),
-            WidthSpacer(wydth: 15),
+            const WidthSpacer(wydth: 15),
             Padding(
-              padding: EdgeInsets.all(9),
+              padding: const EdgeInsets.all(9),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -46,7 +46,7 @@ class BottomTitles extends StatelessWidget {
                     text: text,
                     style: appstyle(23, AppConst.kLight, FontWeight.bold),
                   ),
-                  HeightSpacer(hght: 24),
+                  const HeightSpacer(hght: 24),
                   ReusableText(
                     text: text2,
                     style: appstyle(12, AppConst.kLight, FontWeight.normal),

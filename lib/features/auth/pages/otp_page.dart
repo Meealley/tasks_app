@@ -21,17 +21,17 @@ class OtpPage extends StatelessWidget {
           children: [
             HeightSpacer(hght: AppConst.kHeight * 0.15),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 30),
+              padding: const EdgeInsets.symmetric(horizontal: 30),
               child: Image.asset(
                 'assets/images/otp.png',
                 width: AppConst.kWidth * 0.5,
               ),
             ),
-            HeightSpacer(hght: 10),
+            const HeightSpacer(hght: 10),
             ReusableText(
                 text: "Enter the Code we sent to your phone",
                 style: appstyle(18, AppConst.kLight, FontWeight.w500)),
-            HeightSpacer(hght: 26),
+            const HeightSpacer(hght: 26),
             Pinput(
               length: 4,
               showCursor: true,

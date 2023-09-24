@@ -20,7 +20,7 @@ class XpansionTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: AppConst.kBKLight,
         borderRadius: BorderRadius.all(
           Radius.circular(12),
@@ -31,11 +31,11 @@ class XpansionTile extends StatelessWidget {
         child: ExpansionTile(
           title: BottomTitles(text: text, text2: text2),
           tilePadding: EdgeInsets.zero,
-          children: children,
           childrenPadding: EdgeInsets.zero,
           onExpansionChanged: onExpansionChanged,
           controlAffinity: ListTileControlAffinity.trailing,
           trailing: trailing,
+          children: children,
         ),
       ),
     );

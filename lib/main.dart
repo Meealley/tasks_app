@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_todo/common/utils/constants.dart';
-import 'package:riverpod_todo/features/onboarding/pages/onboarding.dart';
 import 'package:riverpod_todo/features/todo/pages/homepage.dart';
 
 void main() {
