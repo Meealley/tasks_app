@@ -74,7 +74,7 @@ class _OnBoardingState extends State<OnBoarding> {
                         curve: Curves.ease,
                         duration: const Duration(milliseconds: 600),
                       );
-                      print("Second clicked");
+                      // print("Second clicked");
                     },
                     child: SmoothPageIndicator(
                       controller: pageController,
